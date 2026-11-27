@@ -221,3 +221,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# StayPulse project-specific exclusions
+
+# Virtual environment
+.venv/
+venv/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Logs
+*.log
+
+# Temporary Office files
+~$*.docx
+~$*.xlsx
+
+# VS Code settings
+.vscode/
